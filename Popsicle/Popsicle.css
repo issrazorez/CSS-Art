@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+    background-color: rgb(255, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popsicleTop{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(221, 166, 229);
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+}
+
+.popsicleMiddle{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(201, 185, 244);
+}
+
+.popsicleBottom{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(173, 234, 237);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.popsicleStick{
+    height: 200px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 75px;
+    background-color: rgb(213, 152, 152);
+}
